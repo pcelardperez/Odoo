@@ -1,0 +1,26 @@
+<openerp>
+    <data>
+        <template id="snippets" inherit_id="website.snippets" name="Clean Theme snippets">
+          <xpath expr="//div[@id='snippet_structure']" position="inside">
+              <div>
+                  <div class="oe_snippet_thumbnail">
+                      <img class="oe_snippet_thumbnail_img" src="/dummy_theme/static/img/109815626.png"/>
+                      <span class="oe_snippet_thumbnail_title">SNIP IT!</span>
+                  </div>
+                    <section class="oe_snippet_body fw_categories">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 text-center mt32 mb32">
+                                    <h2>Titulo Hiperguay del snippet</h2>
+                                    <h3 class="text-muted ">Subtitulo snipeator</h3>
+                                    <p>Para hacer bien el amor hay que venir al sur, para hacer bien el amor has de mirarme tuuuuuuu! </p>
+                                    <div class="dummy-boy"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+              </div>
+          </xpath>
+        </template>
+    </data>
+</openerp>
